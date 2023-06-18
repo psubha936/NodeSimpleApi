@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Iphone 11",
+        "price":150,
+        "featured":true,
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 14",
+        "price":160,
+        "featured":true,
+        "company": "apple"
+    },
+    {
+        "name": "S 20",
+        "price":58,
+        "featured":true,
+        "company": "samsung"
+    },
+    {
+        "name": "S 30",
+        "price":100,
+        "featured":true,
+        "company": "samsung"
+    },
+    {
+        "name": "Laptop 10",
+        "price":78,
+        "featured":true,
+        "company": "dell"
+    },
+    {
+        "name": "Laptop 20",
+        "price":150,
+        "company": "dell"
+    },
+    {
+        "name": "Note 10",
+        "price":120,
+        "featured":true,
+        "company": "mi"
+    },
+    {
+        "name": "Note 15",
+        "price":150,
+        "company": "mi"
+    }
+]
