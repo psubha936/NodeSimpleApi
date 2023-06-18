@@ -39,14 +39,14 @@ const getAllProducts = async(req, res)=>{
 
     // const myData = await Product.find(queryObject) //befoure Shorting
     const Products = await apiData
-    res.status(200).json({Products ,"length":myData.length})
+    res.status(200).json({Products ,"length":Products.length})
 }
 
 const getAllProductsTesting = async(req, res)=>{
 
     const myData = await Product.find(req.query)
 
-    res.status(200).json({myData})
+    res.status(200).json({Products ,"length":Products.length})
 }
 
 
