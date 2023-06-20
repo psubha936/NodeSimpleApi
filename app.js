@@ -40,6 +40,12 @@ const guestSchema = new mongoose.Schema({
 app.use("/api/products",product_routers)
 app.use(express.json())
 
+app.get('/api/products/guestsdetails', async(req,res)=>{
+  const Person = await Guest.find(req.query)
+
+    res.status(200).json({Person ,"length":Person.length})
+})
+
 app.post('/api/products/guests', async (req, res) => {
     const { name, email, guests, attendance, message } = req.body;
   

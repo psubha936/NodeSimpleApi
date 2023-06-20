@@ -49,5 +49,8 @@ const getAllProductsTesting = async(req, res)=>{
     res.status(200).json({Products ,"length":Products.length})
 }
 
+const guestDeatails = async(req, res)=>{
+    const guests = await Guest.find(req.query)
+}
 
 module.exports ={getAllProducts,getAllProductsTesting}
